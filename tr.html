@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asynchronous JSON Fetch</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        h1 {
+            text-align: center;
+        }
+        #output {
+            background: white;
+            padding: 15px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        pre {
+            white-space: pre-wrap;
+            word-wrap: break-word;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Fetched JSON Data</h1>
+    <div id="output">Loading data...</div>
+
+    <script>
+        fetch('https://www.filesampleshub.com/download/code/json/sample1.json')
+        .then(res => res.json())
+        .then(data => {
+            document.getElementById("output").innerHTML = `
+                <h2>JSON Data</h2>
+                <pre>${JSON.stringify(data, null, 2)}</pre>
+            `;
+        })
+        .catch(error => {
+            document.getElementById("output").innerHTML = `<p style="color: red;">Error loading data: ${error.message}</p>`;
+        });
+    </script>
+</body>
+</html>
