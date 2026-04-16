@@ -44,10 +44,6 @@ I believe the best code is powerful, secure, and feels almost invisible to the u
 
 ### 🏆 Achievements
 
-<div align="center">
-  <img src="https://github.com/user-attachments/assets/..." alt="Achievements badges" /> 
-</div>
-
 **YOLO x2 • Code Shark** — consistency is my superpower.
 
 ---
@@ -60,14 +56,18 @@ I believe the best code is powerful, secure, and feels almost invisible to the u
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=MukamaJ-2&theme=tokyonight&hide_border=true" alt="Contribution Streak" />
 </div>
 
-**893 contributions** in the last year • Active in 65+ repositories
+**893 contributions** in the last year • Active across 83 repositories
 
 ---
 
 ### 🌟 Let's Connect
 
-- **Email**: mukamajoseph010@gmail.com
-- **LinkedIn**: [Joseph Mukama](https://www.linkedin.com/in/joseph-mukama-46879b298)
+<div align="center">
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?logo=linkedin&logoColor=white&style=for-the-badge)](https://www.linkedin.com/in/joseph-mukama-46879b298)
+[![Gmail](https://img.shields.io/badge/Gmail-D14836?logo=gmail&logoColor=white&style=for-the-badge)](mailto:mukamajoseph010@gmail.com)
+
+</div>
 
 I'm always excited about new collaborations, code reviews, or discussions on systems, networking, or modern development. Feel free to reach out!
 
